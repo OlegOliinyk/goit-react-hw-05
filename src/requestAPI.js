@@ -1,7 +1,7 @@
-import axios from "axios";
+import axios from 'axios';
 
-const API_KEY = "1ff3c84dc0a96ef3cc30bdb6b3f20cc6";
-const BASE_URL = "https://api.themoviedb.org/3";
+const API_KEY = '1ff3c84dc0a96ef3cc30bdb6b3f20cc6';
+const BASE_URL = 'https://api.themoviedb.org/3';
 
 const fetchTrendingMovies = async () => {
   const response = await axios.get(

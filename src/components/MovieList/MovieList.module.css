@@ -1,12 +1,18 @@
-.moviesGalleryUl {
-  padding: 4vw 0 1vw 0;
+.movieslist {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 16px;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
 }
 
-.moviesGalleryLi {
-  list-style: none;
+.moviesitem {
+  width: calc(20% - 15px);
+  margin-bottom: 20px;
+}
+
+.movieposter {
+  width: 100%;
+  border-radius: 4px;
+  object-fit: cover;
 }

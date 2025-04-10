@@ -30,6 +30,7 @@ const MoviesPage = () => {
 
   return (
     <div>
+      <h1 className={styles.searchTitle}>Your movie search</h1>
       <form className={styles.searchForm} onSubmit={handleSubmit}>
         <input
           className={styles.searchInput}
