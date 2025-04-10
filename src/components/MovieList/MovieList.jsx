@@ -4,8 +4,6 @@ import styles from './MovieList.module.css';
 const MovieList = ({ movies }) => {
   const location = useLocation();
 
-  console.log(movies);
-
   return (
     <ul className={styles.movieslist}>
       {movies.map((movie) => (
